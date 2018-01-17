@@ -1,0 +1,47 @@
+{
+  "name": "node-threejs-thumbnailer",
+  "version": "0.0.1",
+  "description": "Nodejs thumbnailing service for 3D STL files.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "example-server": "npm run build && node dist/examples/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/w3dot0/node-threejs-thumbnailer.git"
+  },
+  "keywords": [
+    "stl",
+    "three",
+    "threejs",
+    "thumbnail",
+    "render",
+    "node",
+    "nodejs",
+    "3d",
+    "model",
+    "stereolithography",
+    "server-side",
+    "gpu"
+  ],
+  "author": "w3dot0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w3dot0/node-threejs-thumbnailer/issues"
+  },
+  "homepage": "https://github.com/w3dot/node-threejs-thumbnailer#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "gl": "^4.0.4",
+    "lodash": "^4.17.4",
+    "mock-browser": "^0.92.14",
+    "request": "^2.79.0",
+    "three": "^0.84.0",
+    "three-png-stream": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^9.3.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "experimentalDecorators": true,
+      "lib": ["es6", "es2017"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "outDir": "dist",
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "target": "es6",
+      "types": ["node"]
+  },
+  "include": [
+      "./src/**/*"
+  ],
+  "files": [
+      "./src/compiler/loaders.d.ts"
+  ]
+}
